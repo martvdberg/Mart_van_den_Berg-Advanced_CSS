@@ -1,0 +1,164 @@
+@charset "UTF-8";
+.social-media {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: absolute;
+  right: 0;
+  bottom: 10em;
+  overflow: hidden;
+}
+.social-media__blog {
+  background-color: #e17b77;
+  color: white;
+  width: 20em;
+  position: relative;
+  right: -15.5em;
+  -webkit-transition: all 800ms ease-in-out;
+  transition: all 800ms ease-in-out;
+}
+.social-media__blog::before {
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  font-family: "Font Awesome 5 Free", "Font Awesome 5 Brands";
+  font-size: 2em;
+  font-weight: 900;
+  content: "";
+  padding: 0.6em;
+}
+.social-media__blog::after {
+  content: "Check mijn blog!";
+  padding-left: 1em;
+  font-size: 1.2em;
+}
+.social-media__blog:hover {
+  -webkit-transform: translateX(-15em);
+          transform: translateX(-15em);
+  border-radius: 1em 0 0 1em;
+}
+.social-media__twitter {
+  background-color: #00aced;
+  color: white;
+  width: 20em;
+  position: relative;
+  right: -15.5em;
+  -webkit-transition: all 800ms ease-in-out;
+  transition: all 800ms ease-in-out;
+}
+.social-media__twitter::before {
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  font-family: "Font Awesome 5 Free", "Font Awesome 5 Brands";
+  font-size: 2em;
+  font-weight: 900;
+  content: "";
+  padding: 0.6em;
+}
+.social-media__twitter::after {
+  content: "Lees mijn tweets!";
+  padding-left: 1em;
+  font-size: 1.2em;
+}
+.social-media__twitter:hover {
+  -webkit-transform: translateX(-15em);
+          transform: translateX(-15em);
+  border-radius: 1em 0 0 1em;
+}
+.social-media__linkdin {
+  background-color: #007bb6;
+  color: white;
+  width: 20em;
+  position: relative;
+  right: -15.5em;
+  -webkit-transition: all 800ms ease-in-out;
+  transition: all 800ms ease-in-out;
+}
+.social-media__linkdin::before {
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  font-family: "Font Awesome 5 Free", "Font Awesome 5 Brands";
+  font-size: 2em;
+  font-weight: 900;
+  content: "";
+  padding: 0.6em;
+}
+.social-media__linkdin::after {
+  content: "Bekijk mijn linkdin.";
+  padding-left: 1em;
+  font-size: 1.2em;
+}
+.social-media__linkdin:hover {
+  -webkit-transform: translateX(-15em);
+          transform: translateX(-15em);
+  border-radius: 1em 0 0 1em;
+}
+.social-media__facebook {
+  background-color: #3b5998;
+  color: white;
+  width: 20em;
+  position: relative;
+  right: -15.5em;
+  -webkit-transition: all 800ms ease-in-out;
+  transition: all 800ms ease-in-out;
+}
+.social-media__facebook::before {
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  font-family: "Font Awesome 5 Free", "Font Awesome 5 Brands";
+  font-size: 2em;
+  font-weight: 900;
+  content: "";
+  padding: 0.6em;
+}
+.social-media__facebook::after {
+  content: "Volg me op facebook!";
+  padding-left: 1em;
+  font-size: 1.2em;
+}
+.social-media__facebook:hover {
+  -webkit-transform: translateX(-15em);
+          transform: translateX(-15em);
+  border-radius: 1em 0 0 1em;
+}
+.social-media__github {
+  background-color: #333;
+  color: white;
+  width: 20em;
+  position: relative;
+  right: -15.5em;
+  -webkit-transition: all 800ms ease-in-out;
+  transition: all 800ms ease-in-out;
+}
+.social-media__github::before {
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  font-family: "Font Awesome 5 Free", "Font Awesome 5 Brands";
+  font-size: 2em;
+  font-weight: 900;
+  content: "";
+  padding: 0.6em;
+}
+.social-media__github::after {
+  content: "Bekijk mijn Github.";
+  padding-left: 1em;
+  font-size: 1.2em;
+}
+.social-media__github:hover {
+  -webkit-transform: translateX(-15em);
+          transform: translateX(-15em);
+  border-radius: 1em 0 0 1em;
+}/*# sourceMappingURL=styles.css.map */

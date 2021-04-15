@@ -1,0 +1,29 @@
+$purple-blue: #686de0;
+$grey: #c3cfe2;
+$background-upper-card: rgb(255, 255, 255);
+
+@import "./card";
+@import "./portfolio";
+
+body {
+    background-color: $grey;
+}
+
+
+// MEDIA QUERIES
+    
+@media (max-width: 1024px) {
+    .portfolio {
+        grid-template-columns: repeat(2, 1fr);
+        width: 90%;
+        margin: 4em auto;
+    }
+}
+
+@media  (max-width: 768px){
+    .portfolio {
+        grid-template-columns: 1fr;
+        width: 95%;
+        margin: 2em auto;
+    }
+}

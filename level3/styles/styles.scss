@@ -1,0 +1,54 @@
+@mixin social-slider($social-color, $social-icon, $social-content) {
+    background-color: $social-color;
+    color: white;
+    width: 20em;
+    position: relative;
+    right: -15.5em;
+    transition: all 800ms ease-in-out;
+
+    &::before {
+        display: inline-block;
+        font-style: normal;
+        font-variant: normal;
+        text-rendering: auto;
+        font-family: "Font Awesome 5 Free", "Font Awesome 5 Brands";
+        font-size: 2em;
+        font-weight: 900;
+        content: $social-icon;
+        padding: .6em;
+    }
+    &::after {
+        content: $social-content;
+        padding-left: 1em;
+        font-size: 1.2em;
+    }
+    &:hover {
+        transform: translateX(-15em);
+        border-radius: 1em 0 0 1em;
+    }
+}
+
+.social-media {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 0;
+    bottom: 10em;
+    overflow: hidden;
+    
+    &__blog {
+        @include social-slider(#e17b77, "\f5fc", "Check mijn blog!");
+    }
+    &__twitter {
+        @include social-slider(#00aced, "\f099", "Lees mijn tweets!");
+    }
+    &__linkdin {
+        @include social-slider(#007bb6, "\f0e1", "Bekijk mijn linkdin.");
+    }
+    &__facebook {
+        @include social-slider( #3b5998, "\f39e", "Volg me op facebook!")
+    }
+    &__github {
+        @include social-slider(#333, "\f09b", "Bekijk mijn Github.");
+    }
+}
